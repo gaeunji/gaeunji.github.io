@@ -729,6 +729,9 @@ section:last-child {
 .pub-authors strong {
   color: var(--text);
   font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 2px;
 }
 
 .pub-meta {

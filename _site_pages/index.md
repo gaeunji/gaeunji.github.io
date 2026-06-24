@@ -46,9 +46,9 @@ permalink: /
       <div class="pub-entry">
         <img class="pub-thumb" src="https://placehold.co/120x72" alt="LLM safety">
         <div class="pub-body">
-          <div class="pub-title">Safeguarding LLMs via Model-Agnostic Latent Safety Signals from Dark Knowledge/div>
-          <div class="pub-authors"><strong>Wonjun Lee, Kyungsik Yang, Gaeun Ji, Vaidehi Patil, Haon Park, Bumsub Ham, Mohit Bansal, Suhyun Kim.</strong></div>
-          <div class="pub-meta"><span class="venue-badge preprint">Preprint, 2026</span></div>
+          <!-- <div class="pub-title">Safeguarding LLMs via Model-Agnostic Latent Safety Signals from Dark Knowledge</div>
+          <div class="pub-authors">Wonjun Lee, Kyungsik Yang, <strong>Gaeun Ji</strong>, Vaidehi Patil, Haon Park, Bumsub Ham, Mohit Bansal, Suhyun Kim.</div>
+          <div class="pub-meta"><span class="venue-badge preprint">Preprint, 2026</span></div> -->
         </div>
       </div>
       
