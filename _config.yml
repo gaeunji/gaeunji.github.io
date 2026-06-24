@@ -1,0 +1,37 @@
+# Home: _site_pages/index.md with permalink: /
+# Do not add a root index.html — it overrides the home page and breaks asset paths.
+#
+# GitHub Pages URL:
+# - User/org site (repo name: USERNAME.github.io): keep baseurl "".
+# - Project site (e.g. username.github.io/REPO/): set baseurl: "/REPO" (leading slash, no trailing slash).
+title: "Gaeun Ji"
+description: "M.S. in Computer Science at Kyung Hee University"
+url: ""
+baseurl: ""
+timezone: "Asia/Seoul"
+lang: "en"
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  site_pages:
+    output: true
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+  - scope:
+      path: "_site_pages"
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - node_modules

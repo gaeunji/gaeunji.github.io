@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{% if page.featured_image %}
+<section class="page-hero" aria-labelledby="page-hero-heading">
+  <div
+    class="page-hero-bg"
+    style="background-image: url('{{ page.featured_image | relative_url }}');"
+  ></div>
+  <div class="page-hero-inner">
+    <h1 id="page-hero-heading" class="page-hero-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="page-hero-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </div>
+</section>
+{% else %}
+<header class="page-header-simple" aria-labelledby="page-heading">
+  <div class="container">
+    <h1 id="page-heading" class="page-header-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="page-header-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </div>
+</header>
+{% endif %}
+
+<main class="main main--page" id="main-content">
+  <div class="container page-content">
+    {{ content }}
+  </div>
+</main>

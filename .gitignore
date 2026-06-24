@@ -1,0 +1,25 @@
+# Jekyll build output (GitHub Pages builds on the server)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler (local Ruby gems from `bundle install`)
+vendor/bundle/
+.bundle/
+Gemfile.lock
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Editor swap files
+*.swp
+*~
+
+# Environment / secrets
+.env
+.env.*
+
+# Node (if added later)
+node_modules/
