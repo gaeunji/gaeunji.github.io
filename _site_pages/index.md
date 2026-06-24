@@ -14,26 +14,7 @@ permalink: /
         <span class="news-content">Started M.S. research focused on robustness and reliability in language models.</span>
         <span class="news-tag career">Research</span>
       </li>
-      <li class="news-item">
-        <span class="news-date">2025</span>
-        <span class="news-content">Participated in team projects on practical machine learning and data-driven problem solving.</span>
-        <span class="news-tag award">Project</span>
-      </li>
     </ul>
-    <div style="margin-top:12px;">
-      <button class="more-news-btn" id="moreNewsBtn" onclick="toggleMoreNews()">
-        <span class="more-news-arrow">▸</span> More News
-      </button>
-      <div class="more-news-body" id="moreNewsBody">
-        <ul class="news-list" style="margin-top:4px;">
-          <li class="news-item">
-            <span class="news-date">2001</span>
-            <span class="news-content">Birth</span>
-            <span class="news-tag paper">Event</span>
-          </li>
-        </ul>
-      </div>
-    </div>
   </section>
 
   <!--

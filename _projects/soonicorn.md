@@ -1,5 +1,5 @@
 ---
-title: "Research Intern, Soonicorn"
+title: "Research Collaborations, Soonicorn"
 date: 2026-04-01
 status: "Ongoing"
 summary: "Researched VTON models and restored fine-grained garment details in real clothing images."
