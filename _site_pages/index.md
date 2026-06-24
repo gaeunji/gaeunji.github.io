@@ -36,6 +36,7 @@ permalink: /
     </div>
   </section>
 
+  <!--
   <section>
     <div style="display:flex; align-items:baseline; justify-content:space-between;">
       <div class="section-title" style="flex:1; margin-bottom:0; border-bottom:none; padding-bottom:0;">Selected Research</div>
@@ -46,14 +47,15 @@ permalink: /
       <div class="pub-entry">
         <img class="pub-thumb" src="https://placehold.co/120x72" alt="LLM safety">
         <div class="pub-body">
-          <!-- <div class="pub-title">Safeguarding LLMs via Model-Agnostic Latent Safety Signals from Dark Knowledge</div>
+          <div class="pub-title">Safeguarding LLMs via Model-Agnostic Latent Safety Signals from Dark Knowledge</div>
           <div class="pub-authors">Wonjun Lee, Kyungsik Yang, <strong>Gaeun Ji</strong>, Vaidehi Patil, Haon Park, Bumsub Ham, Mohit Bansal, Suhyun Kim.</div>
-          <div class="pub-meta"><span class="venue-badge preprint">Preprint, 2026</span></div> -->
+          <div class="pub-meta"><span class="venue-badge preprint">Preprint, 2026</span></div>
         </div>
       </div>
       
     </div>
   </section>
+  -->
 
   <section>
     <div class="section-title">Education</div>
