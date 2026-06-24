@@ -12,7 +12,7 @@ description: "Selected projects by [YOUR NAME]."
     {% for project in sorted_projects %}
       <div class="project-card">
         <div class="project-header">
-          <div class="project-title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></div>
+          <div class="project-title">{{ project.title }}</div>
           <span class="project-org">{{ project.status }}</span>
         </div>
         <div class="project-subtitle">{{ project.date | date: "%Y-%m" }}</div>
